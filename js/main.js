@@ -38,6 +38,10 @@ $(function(){
       $("#celeb").empty().append(eminem);
       $("#result").show();
     };
+    if(myAge && myGender === "female" && myMusic === "hiphop") {
+      $("#celeb").empty().append(eminem);
+      $("#result").show();
+    };
 
     event.preventDefault();
   });
